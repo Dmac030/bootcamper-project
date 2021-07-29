@@ -18,7 +18,6 @@ public class HomeController {
         
         return ret;
     }
-   
 	
 	private String testingMethod() {
         return "testing Method";
