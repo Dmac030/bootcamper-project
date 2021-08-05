@@ -1,6 +1,9 @@
 package com.organization.mvcproject.model;
 
-public class ReviewImpl {
+import com.organization.mvcproject.api.model.Game;
+import com.organization.mvcproject.api.model.Review;
+
+public class ReviewImpl implements Review{
 	private String reviewBody;
 	private String author;
 	private Integer rating;
